@@ -3,7 +3,7 @@ package ch03.operator;
 import java.util.Scanner;
 
 public class ArrayString {
-
+    
 	@SuppressWarnings("resource")
 	public static void main(String[] args) {
 		int[][] arry = new int[3][3];

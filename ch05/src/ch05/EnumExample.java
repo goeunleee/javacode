@@ -38,8 +38,8 @@ public class EnumExample {
 		if (today == Week.SUNDAY || today == Week.SATURDAY) {
 			System.out.println("늦잠을 잡니다");
 		}
-		else
-			System.out.println("오늘은 "+today+" 일찍 일어납니다");
+		else //평일이니까 
+			System.out.println("오늘은 늦잠을 잘 수 없습니다. "+today+" 일찍 일어납니다");
 
 	}
 
